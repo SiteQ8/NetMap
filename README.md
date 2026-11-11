@@ -1,6 +1,6 @@
-# 🗺️ NetMap
+# NetMap
 
-**IT Asset Inventory & Network Discovery** — a real, working asset inventory tool that runs entirely in your browser.
+**IT Asset Inventory & Network Discovery**, a real, working asset inventory tool that runs entirely in your browser.
 
 **Live demo:** https://siteq8.github.io/NetMap
 
@@ -8,24 +8,24 @@
 
 ## What it does
 
-NetMap tracks every device, application, user account, and network in your environment — the kind of visibility every IT team needs but rarely has time to build.
+NetMap tracks every device, application, user account, and network in your environment, the kind of visibility every IT team needs but rarely has time to build.
 
-- **Devices** — workstations, servers, hypervisors, switches, firewalls. Hardware specs, OS, IP/MAC, serial, warranty, department, assignment.
-- **Software inventory** — every installed application aggregated across the fleet with version tracking.
-- **User accounts** — local and domain accounts discovered on devices, admin detection, last login.
-- **Networks** — subnet and VLAN inventory with device allocation.
-- **Credentials vault** — SSH/WMI/SNMP/API credentials used by discovery scans.
-- **Discovery scans** — simulated network sweep that actually adds new devices to the database.
-- **Reports** — 8 pre-built reports: offline devices, warranty expiring, EOL operating systems, stale devices, unassigned workstations, and more.
-- **Audit log** — every action timestamped and attributed.
+- **Devices**: workstations, servers, hypervisors, switches, firewalls. Hardware specs, OS, IP/MAC, serial, warranty, department, assignment.
+- **Software inventory**: every installed application aggregated across the fleet with version tracking.
+- **User accounts**: local and domain accounts discovered on devices, admin detection, last login.
+- **Networks**: subnet and VLAN inventory with device allocation.
+- **Credentials vault**: SSH/WMI/SNMP/API credentials used by discovery scans.
+- **Discovery scans**: simulated network sweep that actually adds new devices to the database.
+- **Reports**: 8 pre-built reports: offline devices, warranty expiring, EOL operating systems, stale devices, unassigned workstations, and more.
+- **Audit log**: every action timestamped and attributed.
 
 ## Real working features
 
-- **Real authentication** — SHA-256 password hashing with random 16-byte salt via browser-native SubtleCrypto.
-- **Real database** — IndexedDB with 9 object stores, proper indexes, and cascade deletes. Not just localStorage.
-- **Real persistence** — cases, devices, software, users, scans all survive tab refresh, browser restart, everything.
+- **Real authentication**: SHA-256 password hashing with random 16-byte salt via browser-native SubtleCrypto.
+- **Real database**: IndexedDB with 9 object stores, proper indexes, and cascade deletes. Not just localStorage.
+- **Real persistence**: cases, devices, software, users, scans all survive tab refresh, browser restart, everything.
 - **Sortable, searchable, filterable** device table. Click any column to sort.
-- **Full device CRUD** — add, edit, delete with confirmation.
+- **Full device CRUD**: add, edit, delete with confirmation.
 - **CSV export** for devices, software, and every report.
 - **Slide-out detail panel** with 4 tabs: Overview, Software, Users, Network.
 - **Simulated discovery console** with live progress bar and realistic scan output.
@@ -42,14 +42,14 @@ Click **"Explore with Demo Account"** on the login screen. You'll get a fresh "A
 - 5 subnets, 4 credentials, 3 sample scans
 - Audit log entries
 
-The demo account has full read/write access — add devices, run scans, edit anything. It resets on each login so you can experiment freely.
+The demo account has full read/write access, add devices, run scans, edit anything. It resets on each login so you can experiment freely.
 
 ## Tech stack
 
-- **Pure HTML/CSS/JS** — zero build step, zero dependencies, zero backend
-- **IndexedDB** — real database with 9 object stores and indexes
-- **SubtleCrypto** — native browser password hashing
-- **GitHub Pages** — static hosting from `docs/`
+- **Pure HTML/CSS/JS**: zero build step, zero dependencies, zero backend
+- **IndexedDB**: real database with 9 object stores and indexes
+- **SubtleCrypto**: native browser password hashing
+- **GitHub Pages**: static hosting from `docs/`
 
 ## Structure
 
@@ -69,7 +69,7 @@ Everything runs in your browser. No data ever leaves your machine. No tracking, 
 
 ## Author
 
-Ali AlEnezi (@SiteQ8) — Security Architecture Principal
+Ali AlEnezi (@SiteQ8), Security Architecture Principal
 [github.com/SiteQ8](https://github.com/SiteQ8) · [3li.info](https://3li.info)
 
 ## License
