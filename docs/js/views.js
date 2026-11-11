@@ -1009,7 +1009,7 @@ async function saveNewCredential() {
   const name = document.getElementById('f-cr-name').value.trim();
   const username = document.getElementById('f-cr-user').value.trim();
   if (!name || !username) { toast('Name and username required', 'crit'); return; }
-  // Encrypt password (simple base64 for demo — real product would use proper encryption)
+  // Obfuscate password (base64, not real encryption)
   const rawPass = document.getElementById('f-cr-pass').value;
   const encrypted = btoa(rawPass).split('').reverse().join('');
   await DB.addCredential({
